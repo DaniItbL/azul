@@ -10,7 +10,7 @@ const gifts = [
         id: 2,
         title: "Regalo 2",
         type: "image",
-        content: "assets/images/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
+        content: "azul/assets/images/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
     },
     {
         id: 3,
