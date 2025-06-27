@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         giftElement.className = 'gift';
         giftElement.innerHTML = `
             <h3>${gift.title}</h3>
-            <img src="assets/images/gift-icon.png" alt="Icono de regalo">
+            <img src="assets/images/gift-icon.png" alt="Día icon">
         `;
         
         giftElement.addEventListener('click', () => openGift(gift));
