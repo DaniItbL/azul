@@ -10,7 +10,7 @@ const gifts = [
         id: 2,
         title: "Día 2",
         type: "image",
-        content: "azul/assets/images/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
+        content: "assets/imagenes/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
     },
     {
         id: 3,
