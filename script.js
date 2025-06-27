@@ -2,43 +2,43 @@
 const gifts = [
     {
         id: 1,
-        title: "Regalo 1",
+        title: "Día 1",
         type: "text",
         content: "Texto1"
     },
     {
         id: 2,
-        title: "Regalo 2",
+        title: "Día 2",
         type: "image",
         content: "azul/assets/images/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
     },
     {
         id: 3,
-        title: "Regalo 3",
+        title: "Día 3",
         type: "audio",
         content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
     },
     {
         id: 4,
-        title: "Regalo 4",
+        title: "Día 4",
         type: "video",
         content: "assets/videos/mensaje.mp4" // Cambia por tu video
     },
     {
         id: 5,
-        title: "Regalo 5",
+        title: "Día 5",
         type: "text",
         content: "Texto2"
     },
     {
         id: 6,
-        title: "Regalo 6",
+        title: "Día 6",
         type: "image",
         content: "assets/images/recuerdo.jpg" // Cambia por tu imagen
     },
     {
         id: 7,
-        title: "Regalo 7",
+        title: "Día 7",
         type: "text",
         content: "Texto3"
     }
