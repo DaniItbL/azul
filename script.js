@@ -4,7 +4,7 @@ const gifts = [
         id: 1,
         title: "Regalo 1",
         type: "text",
-        content: "Este es mi primer regalo para ti: ¡Un mensaje especial! Eres increíble y vales mucho."
+        content: "Texto1"
     },
     {
         id: 2,
@@ -28,7 +28,7 @@ const gifts = [
         id: 5,
         title: "Regalo 5",
         type: "text",
-        content: "Otro mensaje especial lleno de cariño para ti."
+        content: "Texto2"
     },
     {
         id: 6,
@@ -40,7 +40,7 @@ const gifts = [
         id: 7,
         title: "Regalo 7",
         type: "text",
-        content: "El último regalo pero no el menos importante: ¡Te quiero mucho!"
+        content: "Texto3"
     }
 ];
 
