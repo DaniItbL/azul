@@ -19,10 +19,11 @@ const gifts = [
         content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
     },
     {
-        id: 4,
-        title: "Día 4",
-        type: "video",
-        content: "assets/videos/mensaje.mp4" // Cambia por tu video
+        id: 4, // Ejemplo: regalo 4 es un enlace
+        title: "Regalo 4: Recuerdo especial",
+        type: "link", // Nuevo tipo para enlaces
+        content: "https://drive.google.com/file/d/1FaGHFl__U9OHZD1y5Id4lmAgh3vmBlw-/view?usp=drive_link", // URL que quieres compartir
+        description: "Haz clic aquí para ver" // Texto opcional
     },
     {
         id: 5,
@@ -103,6 +104,17 @@ function openGift(gift) {
             videoSource.type = 'video/mp4';
             contentElement.appendChild(videoSource);
             break;
+
+       case 'link':
+           contentElement = document.createElement('a');
+           contentElement.href = gift.content;
+           contentElement.target = '_blank'; // Abre en nueva pestaña
+           contentElement.textContent = gift.description || '¡Haz clic para ver tu regalo!';
+           contentElement.style.color = '#d23669'; // Color que coincida con tu diseño
+           contentElement.style.fontWeight = 'bold';
+           contentElement.style.marginTop = '20px';
+           contentElement.style.display = 'inline-block';
+           break;
     }
     
     // Añadir título y contenido al modal
