@@ -1,10 +1,18 @@
 // Datos de los regalos
 const gifts = [
     {
-        id: 1,
+      id: 1,
         title: "Día 1",
-        type: "text",
-        content: "Texto1"
+        contents: [
+            {
+                type: "text"
+                content: "Mensaje test1"
+            }
+            {
+                type: "video"
+                content: "assets/videos/video.mp4"
+            }
+        ]
     },
     {
         id: 2,
@@ -116,7 +124,15 @@ function openGift(gift) {
            contentElement.style.display = 'inline-block';
            break;
     }
+    if (gift.contents.length > 1) {
+      contentElement.style.marginBottom = '20px';
+    }
     
+    modalContent.appendChild(contentElement);
+  });
+
+  modal.style.display = 'block';
+}
     // Añadir título y contenido al modal
     const titleElement = document.createElement('h2');
     titleElement.textContent = gift.title;
