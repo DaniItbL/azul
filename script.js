@@ -3,16 +3,8 @@ const gifts = [
     {
       id: 1,
         title: "Día 1",
-        contents: [
-            {
-                type: "text"
-                content: "Mensaje test1"
-            }
-            {
-                type: "video"
-                content: "assets/videos/video.mp4"
-            }
-        ]
+        type: "video"
+        content: "assets/videosvideo.mp4"
     },
     {
         id: 2,
@@ -124,12 +116,7 @@ function openGift(gift) {
            contentElement.style.display = 'inline-block';
            break;
     }
-    if (gift.contents.length > 1) {
-      contentElement.style.marginBottom = '20px';
-    }
-    
-    modalContent.appendChild(contentElement);
-  });
+
 
   modal.style.display = 'block';
 }
