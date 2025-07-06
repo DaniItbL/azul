@@ -3,8 +3,8 @@ const gifts = [
     {
       id: 1,
         title: "Día 1",
-        type: "video"
-        content: "assets/videosvideo.mp4"
+        type: "text"
+        content: "asd"
     },
     {
         id: 2,
