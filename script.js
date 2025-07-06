@@ -119,7 +119,7 @@ function openGift(gift) {
 
 
   modal.style.display = 'block';
-}
+
     // Añadir título y contenido al modal
     const titleElement = document.createElement('h2');
     titleElement.textContent = gift.title;
