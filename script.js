@@ -3,7 +3,7 @@ const gifts = [
     {
       id: 1,
         title: "Día 1",
-        type: "text"
+        type: "text",
         content: "asd"
     },
     {
