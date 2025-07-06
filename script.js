@@ -20,7 +20,7 @@ const gifts = [
     },
     {
         id: 4, // Ejemplo: regalo 4 es un enlace
-        title: "Regalo 4: Recuerdo especial",
+        title: "Regalo 4",
         type: "link", // Nuevo tipo para enlaces
         content: "https://drive.google.com/file/d/1FaGHFl__U9OHZD1y5Id4lmAgh3vmBlw-/view?usp=drive_link", // URL que quieres compartir
         description: "Haz clic aquí para ver" // Texto opcional
