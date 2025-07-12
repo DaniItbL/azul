@@ -42,6 +42,12 @@ const gifts = [
         title: "Día 7",
         type: "text",
         content: "Texto3"
+    },
+    {
+        id: 8,
+        title: "Día 8",
+        type: "video",
+        content: "assets/videos/video.mp4" 
     }
 ];
 
