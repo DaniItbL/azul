@@ -2,50 +2,50 @@
 const gifts = [
     {
       id: 1,
-        title: "Día 1",
+        title: "Día 1 - 16 Oct",
         type: "text",
-        content: "asd"
+        content: "Abre fornais uwu"
     },
     {
         id: 2,
-        title: "Día 2",
+        title: "Día 2 - ?? Oct",
         type: "image",
         content: "assets/imagenes/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
     },
     {
         id: 3,
-        title: "Día 3",
+        title: "Día 3 - ?? Oct",
         type: "audio",
         content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
     },
     {
         id: 4, // Ejemplo: regalo 4 es un enlace
-        title: "Regalo 4",
+        title: "Regalo 4 - ?? Oct",
         type: "link", // Nuevo tipo para enlaces
         content: "https://drive.google.com/file/d/1FaGHFl__U9OHZD1y5Id4lmAgh3vmBlw-/view?usp=drive_link", // URL que quieres compartir
         description: "Haz clic aquí para ver" // Texto opcional
     },
     {
         id: 5,
-        title: "Día 5",
+        title: "Día 5 - ?? Oct",
         type: "text",
         content: "Texto2"
     },
     {
         id: 6,
-        title: "Día 6",
+        title: "Día 6 - ?? Oct",
         type: "image",
         content: "assets/images/recuerdo.jpg" // Cambia por tu imagen
     },
     {
         id: 7,
-        title: "Día 7",
+        title: "Día 7 - ?? Oct",
         type: "text",
         content: "Texto3"
     },
     {
         id: 8,
-        title: "Día 8",
+        title: "Día 8 - ?? Oct",
         type: "video",
         content: "assets/videos/video.mp4" 
     }
