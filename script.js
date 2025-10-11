@@ -35,7 +35,7 @@ const gifts = [
         id: 6,
         title: "Día 6 - ?? Oct",
         type: "text",
-        content: "Texto3"
+        content: "Test de textooooo"
     },
     {
         id: 7,
