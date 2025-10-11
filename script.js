@@ -28,24 +28,18 @@ const gifts = [
     {
         id: 5,
         title: "Día 5 - ?? Oct",
-        type: "text",
-        content: "Texto2"
-    },
-    {
-        id: 6,
-        title: "Día 6 - ?? Oct",
         type: "image",
         content: "assets/images/recuerdo.jpg" // Cambia por tu imagen
     },
     {
-        id: 7,
-        title: "Día 7 - ?? Oct",
+        id: 6,
+        title: "Día 6 - ?? Oct",
         type: "text",
         content: "Texto3"
     },
     {
-        id: 8,
-        title: "Día 8 - ?? Oct",
+        id: 7,
+        title: "Día 7 - ?? Oct",
         type: "video",
         content: "assets/videos/video.mp4" 
     }
