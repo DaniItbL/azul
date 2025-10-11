@@ -25,9 +25,9 @@ h1 {
 /* Estilos para los regalos */
 .gift-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, 260px); /* 4 columnas de 260px */
     gap: 20px;
-    justify-content: center; /* Centra la última fila si está incompleta */
+    justify-content: center; /* Centra el grid dentro del contenedor padre */
 }
 
 .gift {
@@ -86,16 +86,15 @@ h1 {
     cursor: pointer;
 }
 
-/* Responsive para tablets */
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .gift-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 260px);
     }
 }
 
-/* Responsive para móviles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .gift-container {
         grid-template-columns: 1fr;
+        justify-content: stretch;
     }
 }
