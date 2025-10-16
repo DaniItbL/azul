@@ -4,13 +4,13 @@ const gifts = [
       id: 1,
         title: "Día 1 - 17 Oct",
         type: "image",
-        content: "assets/imagenes/fornais.jpg"
+        content: "assets/imagenes/fornais.png"
     },
     {
         id: 2,
         title: "Día 2 - ?? Oct",
         type: "image",
-        content: "assets/imagenes/Gbvqn7Db0AAKrFf.jpg" // Cambia por tu imagen
+        content: "momentos.png" // Cambia por tu imagen
     },
     {
         id: 3,
