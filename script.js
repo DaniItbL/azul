@@ -10,7 +10,7 @@ const gifts = [
         id: 2,
         title: "Día 2 - ?? Oct",
         type: "image",
-        content: "momentos.png" // Cambia por tu imagen
+        content: "assets/imagenes/momentos.png" // Cambia por tu imagen
     },
     {
         id: 3,
