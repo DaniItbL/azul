@@ -2,9 +2,9 @@
 const gifts = [
     {
       id: 1,
-        title: "Día 1 - 16 Oct",
-        type: "text",
-        content: "Abre fornais uwu"
+        title: "Día 1 - 17 Oct",
+        type: "image",
+        content: "assets/imagenes/fornais.jpg"
     },
     {
         id: 2,
