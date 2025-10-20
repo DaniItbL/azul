@@ -8,22 +8,22 @@ const gifts = [
     },
     {
         id: 2,
-        title: "Día 2 - ?? Oct",
+        title: "Día 2 - 19 Oct",
         type: "image",
         content: "assets/imagenes/momentos.png" // Cambia por tu imagen
     },
     {
         id: 3,
-        title: "Día 3 - ?? Oct",
-        type: "audio",
-        content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
+        title: "Día 3 - 21 Oct",
+        type: "link",
+        content: "https://docs.google.com/forms/d/e/1FAIpQLScvqI7i3fVJurhA4lxEVb4hcSGZY0RNg2W_F8vFtpqm_cwWHg/viewform?usp=header" // Cambia por tu audio
+        description: "UwU"
     },
     {
         id: 4, // Ejemplo: regalo 4 es un enlace
         title: "Regalo 4 - ?? Oct",
-        type: "link", // Nuevo tipo para enlaces
-        content: "https://drive.google.com/file/d/1FaGHFl__U9OHZD1y5Id4lmAgh3vmBlw-/view?usp=drive_link", // URL que quieres compartir
-        description: "Haz clic aquí para ver" // Texto opcional
+        type: "audio", // Nuevo tipo para enlaces
+        content: "assets/audio/cancion-especial.mp3", // URL que quieres compartir
     },
     {
         id: 5,
@@ -44,6 +44,13 @@ const gifts = [
         content: "assets/videos/video.mp4" 
     }
 ];
+
+//    {
+//        id: 3,
+//        title: "Día 3 - ?? Oct",
+//        type: "audio",
+//        content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
+//    },
 
 // Cargar los regalos en la página
 document.addEventListener('DOMContentLoaded', function() {
