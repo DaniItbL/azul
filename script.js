@@ -21,25 +21,25 @@ const gifts = [
     }, 
     {
         id: 4,
-        title: "Día 4 - ?? Oct",
+        title: "Día 4 - 23 Oct",
         type: "audio",
         content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
     },
     {
         id: 5,
-        title: "Día 5 - ?? Oct",
+        title: "Día 5 - 25 Oct",
         type: "image",
         content: "assets/images/recuerdo.jpg" // Cambia por tu imagen
     },
     {
         id: 6,
-        title: "Día 6 - ?? Oct",
+        title: "Día 6 - 27 Oct",
         type: "text",
         content: "Test de textooooo"
     },
     {
         id: 7,
-        title: "Día 7 - ?? Oct",
+        title: "Día 7 - 29 Oct",
         type: "video",
         content: "assets/videos/video.mp4" 
     }
