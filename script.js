@@ -12,18 +12,18 @@ const gifts = [
         type: "image",
         content: "assets/imagenes/momentos.png" // Cambia por tu imagen
     },
+      {
+        id: 3, // Ejemplo: regalo 4 es un enlace
+        title: "Regalo 3 - 21 Oct",
+        type: "link", // Nuevo tipo para enlaces
+        content: "https://docs.google.com/forms/d/e/1FAIpQLScvqI7i3fVJurhA4lxEVb4hcSGZY0RNg2W_F8vFtpqm_cwWHg/viewform?usp=header", // URL que quieres compartir
+        description: "uwu" // Texto opcional
+    }, 
     {
-        id: 3,
-        title: "Día 3 - 21 Oct",
-        type: "link",
-        content: "https://docs.google.com/forms/d/e/1FAIpQLScvqI7i3fVJurhA4lxEVb4hcSGZY0RNg2W_F8vFtpqm_cwWHg/viewform?usp=header" // Cambia por tu audio
-        description: "UwU"
-    },
-    {
-        id: 4, // Ejemplo: regalo 4 es un enlace
-        title: "Regalo 4 - ?? Oct",
-        type: "audio", // Nuevo tipo para enlaces
-        content: "assets/audio/cancion-especial.mp3", // URL que quieres compartir
+        id: 4,
+        title: "Día 4 - ?? Oct",
+        type: "audio",
+        content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
     },
     {
         id: 5,
