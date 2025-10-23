@@ -20,10 +20,10 @@ const gifts = [
         description: "uwu" // Texto opcional
     }, 
     {
-        id: 4,
+      id: 4,
         title: "Día 4 - 23 Oct",
-        type: "audio",
-        content: "assets/audio/cancion-especial.mp3" // Cambia por tu audio
+        type: "image",
+        content: "assets/imagenes/quak.png"
     },
     {
         id: 5,
