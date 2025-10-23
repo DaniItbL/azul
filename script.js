@@ -12,7 +12,7 @@ const gifts = [
         type: "image",
         content: "assets/imagenes/momentos.png" // Cambia por tu imagen
     },
-      {
+    {
         id: 3, // Ejemplo: regalo 4 es un enlace
         title: "Regalo 3 - 21 Oct",
         type: "link", // Nuevo tipo para enlaces
